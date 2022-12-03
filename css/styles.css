@@ -1,65 +1,219 @@
-:root{
-    --primary-text-color:#2196F3
-    --title-text-color:#757575
-    --accent-color:#212121
-    --primary-background-color:#2F303A
+/* Стилі для html*/
 
-}
-
-body { 
-    background-color:var pr(--title-text-color);
-    /* color: #F5F5F5 */
-
- }
- ul { list-style: none;
- }
-/* основний колір фону #F5F5F5 */
-/* колір основного тексту #212121 */
-/* другорядний колір шрифту #757575  */
-/* білий #FFFFFF */
+/* колір основного тексту  #757575 */
+/* колір другорядного тексту #212121 */
+/* білий текст #FFFFFF */
 /* акцент #2196F3 */
-/* вторинний колір фону #F5F4FA */
-/* колір лого #000000 */
-.logo :hover {
-   color: var(--primary-text-color);
-}
-/* Side nav */
+/* колір фону макету #F5F5F5 */
+/* другорядний колір фону макету #2F303A */
+/* лого #000000 */
+/* лого ##2196F3 */
 
-.side-nav .link {
-    color:var(--accent-color);
-}
-.side-nav .link:hover,
-.side-nav .link:focus {
-    color:var(--primary-text-color);
-}
-.side-nav .link.current{
-    color: var(--title-text-color);
+:root{
+    --primary-text-color: #757575
+    --title-text-color: #000000
+    --accent-color: #2196F3
+    --text-white-color: #FFFFFF
+    --secondary-fond-color: #212121
 }
 
-/* Hero */
- .hero-title
- { #FFFFFF
+body {
+background-color: #212121;
+color: #757575;
+}
+.logo {
+color: #212121;
+}
+.accent{
+color: #2196F3; 
 }
 
+body {
+    background-color:#F5F5F5;
 }
-section-title{
-    color:var(--accent-color) ;
+
+/* Site-nav*/
+.site-nav .link{
+    color: var(--secondary-fond-color);
 }
-/* Features */
-.feature-list .title {
-color:var(--accent-color);
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
 }
-/* Examples */
-.work-liste .title{
+.site-nav .link{
+    color: var(--secondary-fond-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+ .test-link {
+    color:#757575;
+ }   
+.test-link :hover {
+ color:#2196F3;
+}
+ 
+.site-nav .link.current{
+    color: #2196F3;
+}
+
+
+ /* Hero */
+.hero-title{
+    color:#FFFFFF;
+}
+/* Section */
+.section-title {
+    color:#212121;
+}
+
+ /* Examples */
+.work-list .title{
     color: var(--primary-text-color) ;
 }
-/* Button */
-.button {
-    color: var(--primary-text-color) ;
-    background-color: var(--primary-text-color) ;
+
+ /* Button */
+ .button {
+    font-size: 16px;
+    padding: 50px 216px;
+ }
+  .button.primary {
+    color:#FFFFFF;
+    background-color:#2196F3
+  }
+
+ /* Footer */
+.test-link{
+    color:#FFFFFF
+    }
+    
+
+
+
+               /* Стилі для portfolio */
+
+/* колір основного тексту  #212121 */
+/* колір другорядного тексту #757575 */
+/* колір фону макету #F5F5F5 */
+/* другорядний колір макету #2F303A */
+/* білий текст #FFFFFF */
+/* акцент #2196F3 */
+/* лого #000000 */
+/* лого #2196F3 */
+
+
+:root{
+    --primary-text-color: #212121
+    --secondary-fond-color: #757575
+    --title-text-color: #000000
+    --title-text-color: #2196F3
+    --accent-color: #2196F3
+    --text-white-color: #FFFFFF
+    --layout-background-color:#F5F5F5
+    --secondary-layout-color: #2F303A 
 }
-.button secondary {
-    color: var(--accent-color);
-    background-color: var(--primary-text-color);
-    border-color: blue;
+
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    }
+    .logo {
+    color: #212121;
+ }
+  .accent{
+color: #2196F3;
 }
+   /* Site nav*/
+
+    .site-nav .link {
+        color: var(--secondary-fond-color);
+    }
+
+  /* Button */
+
+ .button {
+    font-size: 16px;
+    padding: 38px 73px;
+ } 
+
+ .button.primary {
+    color: #FFFFFF;
+    background-color: #2196F3;
+ }
+ 
+.button .link {  
+    font-size: 16px;
+    padding: 38px 125px;
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #212121;
+    background-color: #2196F3;
+} 
+
+/* Section */
+.section-title {
+    color:#212121
+}
+.work-list{
+    color: #757575;
+}
+ 
+/* Footer */
+.test-link{
+color:#FFFFFF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

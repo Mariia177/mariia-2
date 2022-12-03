@@ -5,26 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domashka1</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--Шапка-->
-<h2>Студія WebStudio</h2>
-    <header> 
+<h2>Студія Web Studio</h2>
+    <header class="page-header"> 
         <nav>
-            <a href="https://google.com" class="logo">
-                WebStudio
-            </a>
+            <a href="https://google.com"><span class="accent">Web</span><span class="logo">Studio</span></a>
             <ul class="site-nav list">
-                <li> <a href="./portfolio.html" class="link current">Студія</a></li>
-                <li> <a href="./portfolio.html" class="link current">Портфоліо</a></li> 
-                <li> <a href="./portfolio.html" class="link current">Контакти</a></li>
+                <li> <a class="link current">Студія</a></li>
+                <li> <a class="link" href="./portfolio.html">Портфоліо</a></li> 
+                <li> <a class="link">Контакти</a></li>
             </ul>
          </nav>
-
-            <ul class="auth-nav list">
-                <li> <a href="mailto:nfo@devstudio.com" class="button primary">nfo@devstudio.com</a> </li>
-                <li> <a href="tel:+380961111111" class="button primary">+38 096 111 11 11</a> </li>
+            <ul class="test-link">
+                <li> <a href="mailto:info@devstudio.com" class="link current">nfo@devstudio.com</a></li>
+                <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
     </header>
     <!--Герой-->
@@ -35,10 +33,11 @@
          </section>
      <section class="section">
         <!--Функції-->
+        <section class="section-title">
         <h2 class="section-title">Основні функції</h2>
-        <ul class="features-list">
+        <ul class="work-list">
             <li>
-               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+               <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li>
@@ -58,16 +57,16 @@
     <!--Переваги -->  
     <h2>Наші переваги</h2>
      <section class="section">
-         <h2 class="section-ttle">Чим ми займаємося</h2>
-        <ul class="work-list"> 
+         <h2 class="section-title">Чим ми займаємося</h2>
+        <ul> 
             <li>
-             <img src="img/img1.jpg" alt="програмування" width="391">
+             <img src="img/img1.jpg" alt="програмування" width="370">
             </li>
             <li>
-                <img src="img/img2.jpg" alt="написання коду" width="391"> 
+                <img src="img/img2.jpg" alt="написання коду" width="370"> 
             </li>
              <li>
-               <img src="img/img3.jpg" alt="дизайн" width="391">
+               <img src="img/img3.jpg" alt="дизайн" width="370">
              </li>
         </ul>
      </section>
@@ -99,11 +98,11 @@
 <!--Футер-->
 <h2>Контакти студії</h2>
 <footer> 
-    <a href="https://google.com" class="logo">WebStudio</a>
+    <a href="https://google.com"><span class="accent">Web</span><span class="test-link">Studio</span></a>
     <address> 
-    <ul>
-        <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li> <a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <ul class="test-link">
+        <li> <a href="mailto:info@devstudio.com" class="test-link">info@devstudio.com</a></li>
+        <li> <a href="tel:+380961111111" class="test-link">+38 096 111 11 11</a></li>
     </ul>
 </address>
 </footer>
