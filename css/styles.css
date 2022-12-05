@@ -1,35 +1,37 @@
 /* Стилі для html*/
 
-/* колір основного тексту  #757575 */
-/* колір другорядного тексту #212121 */
+/* колір основного тексту  #434455 */
+/* колір другорядного тексту #2E2F42 */
 /* білий текст #FFFFFF */
-/* акцент #2196F3 */
-/* колір фону макету #F5F5F5 */
-/* другорядний колір фону макету #2F303A */
-/* лого #000000 */
-/* лого ##2196F3 */
-
+/* акцент #4D5AE5 */
+/* колір фону макету там де контакти #FFFFFF */
+/* колір фону #F4F4FD */
+/* колір фону там де кнопка/футер #2E2F42 */
+/* другорядний колір фону макету/фотокартки #F4F4FD */
+/* лого #F4F4FD */
+/* лого #4D5AE5 */
+/* лого #2E2F42 */
 :root{
-    --primary-text-color: #757575
-    --title-text-color: #000000
-    --accent-color: #2196F3
+    --primary-text-color: #434455
+    --title-text-color: #2E2F42
+    --accent-color: #4D5AE5
     --text-white-color: #FFFFFF
-    --secondary-fond-color: #212121
+    --secondary-fond-color: #2E2F42
 }
 
 body {
 background-color: #212121;
-color: #757575;
+color:#2E2F42;
 }
 .logo {
 color: #212121;
 }
 .accent{
-color: #2196F3; 
+color: #4D5AE5; 
 }
 
 body {
-    background-color:#F5F5F5;
+    background-color:#F4F4FD;
 }
 
 /* Site-nav*/
@@ -45,18 +47,18 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: #4D5AE5;
 }
 
  .test-link {
     color:#757575;
  }   
 .test-link :hover {
- color:#2196F3;
+ color:#4D5AE5;
 }
  
 .site-nav .link.current{
-    color: #2196F3;
+    color: #4D5AE5;
 }
 
 
@@ -77,18 +79,18 @@ body {
  /* Button */
  .button {
     font-size: 16px;
-    padding: 50px 216px;
+    padding: 32px;
  }
   .button.primary {
     color:#FFFFFF;
-    background-color:#2196F3
+    background-color:#4D5AE5
   }
 
  /* Footer */
-.test-link{
-    color:#FFFFFF
-    }
-    
+
+  .class text{
+    color:#E7E9FC;
+  }  
 
 
 
