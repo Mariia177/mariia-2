@@ -11,12 +11,12 @@
 /* лого #F4F4FD */
 /* лого #4D5AE5 */
 /* лого #2E2F42 */
-:root{
-    --primary-text-color: #434455
-    --title-text-color: #2E2F42
-    --accent-color: #4D5AE5
-    --text-white-color: #FFFFFF
-    --secondary-fond-color: #2E2F42
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --text-white-color: #FFFFFF;
+    --secondary-fond-color: #2E2F42;
 }
 
 body {
@@ -87,8 +87,14 @@ body {
   }
 
  /* Footer */
+ .logo {
+    color: #212121;
+    }
+    .accent{
+    color: #4D5AE5; 
+    }
 
-  .class text{
+  text{
     color:#E7E9FC;
   }  
 
