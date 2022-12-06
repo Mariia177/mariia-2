@@ -22,12 +22,15 @@
 body {
 background-color: #212121;
 color:#2E2F42;
+
+font-family: Roboto, Raleway, sans-serif;
 }
+
 .logo {
 color: #212121;
 }
-.accent{
-color: #4D5AE5; 
+.accent {
+color:#4D5AE5; 
 }
 
 body {
@@ -65,6 +68,7 @@ body {
  /* Hero */
 .hero-title{
     color:#FFFFFF;
+ 
 }
 /* Section */
 .section-title {
@@ -80,10 +84,17 @@ body {
  .button {
     font-size: 16px;
     padding: 32px;
+    font-family: inherit;
  }
   .button.primary {
     color:#FFFFFF;
     background-color:#4D5AE5
+    Text style: Header 1
+    Font family: Roboto
+    Font size: 56px
+    Line height: 60px
+    Line height: 91%
+    text-align: center;
   }
 
  /* Footer */
@@ -94,7 +105,7 @@ body {
     color: #4D5AE5; 
     }
 
-  text{
+ .text{
     color:#E7E9FC;
   }  
 
